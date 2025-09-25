@@ -66,7 +66,7 @@ export default function HomePage() {
                 className={cn(
                   'hover:-translate-y-10 hover:cursor-pointer',
                   index !== 0
-                    ? '-ml-8 md:-ml-24 shadow-[-5px_5px_10px_rgba(0,0,0,0.1)]'
+                    ? '-ml-8 sm:-ml-12 lg:-ml-24 shadow-[-5px_5px_10px_rgba(0,0,0,0.1)]'
                     : ''
                 )}
                 onClick={() => setSelectedIdx(index)}

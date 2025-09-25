@@ -30,8 +30,8 @@ const PokerCard = ({
       )}
       onClick={onClick}
     >
-      <span className="absolute inset-0 flex justify-center items-center text-base md:text-2xl lg:text-[48px] ">
-        {getValue('size-4 md:size-6 lg:size-12')}
+      <span className="absolute inset-0 flex justify-center items-center text-base sm:text-2xl lg:text-[48px] ">
+        {getValue('size-4 sm:size-6 lg:size-12')}
       </span>
       <span className="absolute top-2 left-2 ">{getValue()}</span>
       <span className="absolute top-2 right-2 ">{getValue()}</span>
